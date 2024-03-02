@@ -2,9 +2,9 @@
 
 This repository contains the source code for the ASPLOS'24 paper:
 
-*"Enforcing C/C++ Type and Scope at Runtime for Control-Flow and Data-Flow Integrity"*
-*Mohannad Ismail, Christopher Jelesnianski, Yeongjin Jang, Changwoo Min, and Wenjie Xiong*
-*In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2024)*
+*Enforcing C/C++ Type and Scope at Runtime for Control-Flow and Data-Flow Integrity*\
+*Mohannad Ismail, Christopher Jelesnianski, Yeongjin Jang, Changwoo Min, and Wenjie Xiong*\
+*In Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2024)*\
 
 ## Directory structure
 ```{.sh}
