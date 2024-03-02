@@ -1,0 +1,6 @@
+#!/bin/bash
+
+../llvm-project/build/bin/clang -target arm64e-apple-darwin -fsanitize=dvipac -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -flegacy-pass-manager -fno-ptrauth-calls -fno-ptrauth-indirect-gotos -fno-ptrauth-auth-traps -g $1.c -o $1
+
+#../../llvm-project-sti-afterLTO/llvm-project/build/bin/clang -target arm64e-apple-darwin -fsanitize=dvipac -flto -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -flegacy-pass-manager -fno-ptrauth-calls -fno-ptrauth-indirect-gotos -fno-ptrauth-auth-traps -g $1.c -o $1
+
