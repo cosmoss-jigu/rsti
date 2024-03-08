@@ -29,8 +29,8 @@ $ make llvm-mac-all
 #### Running examples
 ```bash
 $ cd example
-$ ./pactight_compile_c example
-$ ./pactight_compile_c++ example_cpp
+$ ./rsti_compile_c example
+$ ./rsti_compile_c++ example_cpp
 $ ./example
 $ ./example_cpp
 ```
