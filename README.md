@@ -30,7 +30,7 @@ $ make llvm-mac-all
 ```bash
 $ cd example
 $ ./rsti_compile_c example
-$ ./rsti_compile_c++ example_cpp
+$ ./rsti_compile_c++ example_c++
 $ ./example
 $ ./example_cpp
 ```
