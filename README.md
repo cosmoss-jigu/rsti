@@ -16,7 +16,9 @@ rsti
 
 
 ## Setup notes
-RSTI uses a fork of Apple's LLVM, and thus this will only work on an Apple macOS machine with an ARM processor. This has been tested on an Apple Mac Mini M1.
+RSTI uses a fork of Apple's LLVM, and thus this will only work on an Apple macOS machine with an ARM processor. This has been tested on an Apple Mac Mini M1. You also need to:
+1. Disable System Integrity Protection (https://developer.apple.com/documentation/security/disabling_and_enabling_system_integrity_protection)
+2. Run this command to enable arm64e compilation to support Pointer Authentication instructions: ```sudo nvram boot-args=-arm64e_preview_abi```
 
 ## How to compile RSTI
 ```bash
