@@ -32,6 +32,6 @@ $ cd example
 $ ./rsti_compile_c example
 $ ./rsti_compile_c++ example_c++
 $ ./example
-$ ./example_cpp
+$ ./example_c++
 ```
 If you wish to use the RSTI compiler, please check the compile scripts in the example directory for all the flags necessary. You can copy the file and modify it as needed.
